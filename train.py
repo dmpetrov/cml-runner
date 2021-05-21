@@ -24,3 +24,4 @@ with open("metrics.txt", 'w') as outfile:
 disp = plot_confusion_matrix(clf, X_test, y_test, normalize='true',cmap=plt.cm.Blues)
 plt.savefig('confusion_matrix.png')
 
+
